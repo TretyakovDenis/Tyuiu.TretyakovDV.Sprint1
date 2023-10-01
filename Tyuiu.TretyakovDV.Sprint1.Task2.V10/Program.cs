@@ -37,7 +37,7 @@ namespace Tyuiu.TretyakovDV.Sprint1.Task1.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.ConvertMetreToInchs(x));
+            Console.WriteLine("{0: 0.000}", ds.ConvertMetreToInchs(x));
             Console.ReadKey();
         }
     }
